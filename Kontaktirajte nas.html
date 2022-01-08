@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="css/kontaktirajte nas.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="wrapper">
+	<div class="header">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+  	<div class="logo"><img src="slike/logo.png"> 
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Kontaktirajte nas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="O nama.html">O nama</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Galerija.html">Galerija</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Pocetna</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	</div>
+   
+   <hr class="nav-line">
+   		
+	</div>
+
+	</div>
+		
+		<div class="ljevi-header">
+			<img src="slike/mobitel.png" class="ikone">
+			<p class="header-tekst"></br>Info: +385 98 281 019
+			</br>
+			Email: cvjecarnicaferesin@gmail.com</p>
+			<hr class="LINIJA">
+		</div>
+
+		<div class="srednji-header">
+			<img src="slike/sat.png" class="ikone">
+			<p class="header-tekst"></br>Radno vrijeme: od Pon-Sub: 07:00-21:30</br>
+			Nedjeljom i Praznikom: 08:00-21:00
+			
+		</div>
+
+		<div class="desni-header">
+			<img src="slike/lokacija.png" class="ikone">
+			<p class="header-tekst"></br>Mirogoj, Kiosk lokacija br.4 (ispred broja 11) 10000 Zagreb
+			</br></br>
+			
+		</div>
+
+			
+
+			<div class="stacked-accordion">
+		<button class="accordion"><b>Radite li dostavu?</b><img src="slike/pointer.png" class="pointer"></button>
+		<div class="panel">
+  		<p>Dostava nazalost nije dostupna, ali radimo na tome.</p>
+		</div>
+
+		<button class="accordion"><b>Koje su cijene cvijeca?</b><img src="slike/pointer.png" class="pointer"></button>
+		<div class="panel">
+ 		 <p>Imamo svakakvo cvijece kojemu cijene rangiraju od 10kn pa sve do 300kn. </p>
+		</div>
+
+		<button class="accordion"><b>Radite li bukete?</b><img src="slike/pointer.png" class="pointer"></button>
+		<div class="panel">
+  		<p>Radimo, imamo gotove bukete a radimo i po mjeri ako musterija tako zeli.</p>
+		</div>
+
+		<button class="accordion"><b>Dali prodajete lampase?</b><img src="slike/pointer.png" class="pointer"></button>
+		<div class="panel">
+  		<p>Lampase nemamo u prodaji.</p>
+  		</div>
+		</div>
+
+		
+
+		<div class="footer">
+		 <div class="map-responsive">
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d292.18877862041455!2d15.98392094220546!3d45.83561060186607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d76d86ed7f01%3A0x89d7d8fde608f0e9!2sMirogoj!5e0!3m2!1shr!2shr!4v1619778707390!5m2!1shr!2shr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+
+		 <div class="ljevi-footer">
+		 	<h6 class="ljevi-podnaslov">O nama<hr class="prvi"></h6>
+		 	<p class="ljevi-footer-tekst">Mi smo u poslu vec puno godina</br>
+			i nama je u cilju da napravimo sto</br>
+			ljepse cvijece za vas.</br>
+			Dostava nije moguca.</p>
+
+		 </div>
+
+		 <div class="desni-footer">
+		 	<h6 class="desni-podnaslov">Adresa<hr class="prvi"></h6>
+		 	<p class="desni-footer-tekst">Mirogoj</br>
+			10 000 Zagreb</br>
+			Email: cvjecarnicaferesin@gmail.com</br>
+			Broj telefona: 095 824 3375</p>
+			<a href="#"><img src="slike/fb.png" class="fb"></a>
+			<a href="#"><img src="slike/insta.png" class="insta"></a>
+		 </div>
+
+		</div>
+
+		<div class="footer-donji">
+			<h6 class="copyright-tekst">&copy;Copyright Cvjecarnica Feresin</h6>
+		</div>
+
+
+
+
+</div>
+
+	<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+	</script>
+
+</body>
+</html>
